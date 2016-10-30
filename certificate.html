@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>Certificate</title>
+<script>
+
+var d=new Date();
+var a=d.getMonth();
+var dat=d.getDate();
+var mon;
+if(a==0)
+ {
+ mon="January";
+ }
+
+else if(a==1)
+ {
+ mon="February";
+ }
+ 
+ else if(a==2)
+ {
+ mon="March";
+ }
+ 
+ else if(a==3)
+ {
+ mon="April";
+ }
+ 
+ else if(a==4)
+ {
+ mon="May";
+ }
+ 
+ else if(a==5)
+ {
+ mon="June";
+ }
+ 
+ else if(a==6)
+ {
+ mon="July";
+ }
+
+ else if(a==7)
+ {
+ mon="August";
+ }
+ 
+ else if(a==8)
+ {
+ mon="September";
+ }
+ 
+ else if(a==9)
+ {
+ mon="October";
+ }
+ 
+ else if(a==10)
+ {
+ mon="November";
+ }
+ 
+ else if(a==11)
+ {
+ mon="December";
+ }
+ 
+ 
+//var z=document.write(day1+" "+d.getDate()+"/"+(d.getMonth()+1)+"/"+d.getFullYear());
+
+function loadbody()
+{
+
+var pr=prompt("Enter your name that would you like to print on certificate","");
+document.getElementById('cer1').innerHTML=pr;
+document.getElementById('dt1').innerHTML=dat;
+document.getElementById('dt2').innerHTML=mon;
+}
+
+</script>
+
+<style type="text/css">
+body
+{
+background-image:url('cert2.png');
+background-repeat:no-repeat;
+background-position:center;
+}
+</style>
+</head>
+<body onLoad="loadbody()" bgcolor="white">
+<br>
+<table width="90%" height="95%"  align="center" valign="bottom"> 
+<tr height="50%" ><td colspan="3">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<center>
+<font id="cer1" size="5"> </font>
+<hr color="black" width="35%">
+</center>
+
+</td></tr>
+
+<tr valign="top">
+<td width="12%"></td>
+<td>
+<font size="5">for participating in online quiz competition "QUIZ MASTER" held on 
+<font id="dt1">1</font> <font id="dt2">August</font> 2016<br>by Quiz Master Club of Computer Science & Engineering Department.
+</td>
+<td width="12%"></td>
+</tr>
+</table>
+</body>
+<html>

@@ -1,0 +1,118 @@
+<html>
+<head>
+<title>Select Subject</title>
+
+<script>
+
+function showgk()
+{
+document.getElementById('img1').src="sachin.png";
+}
+
+function showsports()
+{
+document.getElementById('img1').src="dhoni.png";
+}
+
+function showmaths()
+{
+document.getElementById('img1').src="kohli.png";
+}
+
+function showphysics()
+{
+document.getElementById('img1').src="continue.png";
+}
+
+function showaptitude()
+{
+document.getElementById('img1').src="trophy1.png";
+}
+
+function showchemistry()
+{
+document.getElementById('img1').src="trophy3.png";
+}
+
+function hideall()
+{
+document.getElementById('img1').src="patt3.jpg";
+}
+
+</script>
+
+<style>
+p
+{
+font-size:40px;
+color:darkred;
+}
+
+
+</style>
+</head>
+<body >
+<table background="patt4.jpg" width="100%" border="1">
+<tr>
+<td colspan="2" align="center" valign="center" background="patt3.jpg" >
+<font size="10" color="white"><b>QUIZ MASTER</b></font><br>
+<font size="5" color="white">An online quiz examination</font><br><br>
+
+</td>
+
+</tr>
+<tr >
+<td colspan="2">
+<p>&nbsp;&nbsp;&nbsp;Select the subject:</p>
+</td>
+</tr>
+
+<tr>
+
+<td>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href=""><img src="gk.png" height="78" width="300" onMouseOver="showgk()" onMouseOut="hideall()"></a>
+</td>
+<td rowspan="6">
+<img id="img1" src="patt3.jpg" height="400" width="700">
+</td>
+</tr>
+
+<tr>
+<td>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="sports.html"><img src="sports.png" height="78" width="300" onMouseOver="showsports()" onMouseOut="hideall()"></a>
+</td>
+</tr>
+
+<tr>
+<td>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href=""><img src="maths.png" height="78" width="300" onMouseOver="showmaths()" onMouseOut="hideall()"></a>
+</td>
+</tr>
+
+<tr>
+<td>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href=""><img src="physics.png" height="78" width="300" onMouseOver="showphysics()" onMouseOut="hideall()"></a>
+</td>
+</tr>
+
+<tr>
+<td>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href=""><img src="aptitude.png" height="78" width="300" onMouseOver="showaptitude()" onMouseOut="hideall()"></a>
+</td>
+</tr>
+
+<tr>
+<td>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href=""><img src="chemistry.png" height="78" width="300" onMouseOver="showchemistry()" onMouseOut="hideall"></a>
+</td>
+</tr>
+
+</table>
+</body>
+</html>

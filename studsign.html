@@ -1,0 +1,212 @@
+<html>
+<head>
+<title>Sign Up Page</title>
+<script src="jsfile.js" ></script>
+</head>
+<body bgcolor="grey" onLoad="hidebody()" style="border-color:red" background="patt4.jpg">
+<table border="0" width="100%" height="100%" background="patt3.jpg">
+
+<tr  >
+
+
+<td align="center" width="90%">
+<br>
+<font size="7"  color="white"><b>Candidate Sign Up Form</b></font><br>
+<br>
+</td>
+
+<td valign="top">
+<b><font size="4" color="white" >
+<script>
+var d=new Date();
+var a=d.getDay();
+
+var day1;
+if(a==0)
+ {
+ day1="Sunday";
+ }
+
+else if(a==1)
+ {
+ day1="Monday";
+ }
+ 
+ else if(a==2)
+ {
+ day1="Tuesday";
+ }
+ 
+ else if(a==3)
+ {
+ day1="Wednesday";
+ }
+ 
+ else if(a==4)
+ {
+ day1="Thrusday";
+ }
+ 
+ else if(a==5)
+ {
+ day1="Friday";
+ }
+ 
+ else if(a==6)
+ {
+ day1="Saturday";
+ }
+ 
+
+
+document.write(day1+" "+d.getDate()+"/"+(d.getMonth()+1)+"/"+d.getFullYear());
+</script>
+</font></b>
+</td>
+
+</tr>
+
+<tr bgcolor="grey"><td colspan="3" background="keyboard3.png">
+<form action="" method="">
+<br>
+
+<table border="0" width="55%" align="center" >
+
+<tr>
+
+<td>
+<input type="text" name="n1" id="n11" placeholder="First Name" size="41" onFocus="show1()" onBlur="hide1()"
+style="height:35;background-color:transparent;border-color:black;font-weight:bold;font-size:17px " >
+</td>
+
+<td>
+<input type="text" name="n2" id="n22" placeholder="Last Name" size="41" onFocus="show2()" onBlur="hide2()"
+style="height:35;background-color:transparent;border-color:black;font-weight:bold;font-size:17px " >
+</td>
+
+</tr>
+
+<tr>
+<td height="15" id="t1" >
+<font color="red" id="p11"><b>input only characters</b> </font>
+<font color="red" id="p12"><b>field not be empty</b> </font>
+</td>
+
+<td height="15">
+<font color="red" id="p21"><b>input only characters</b>  </font>
+<font color="red" id="p22"><b>field not be empty </b></font>
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
+<input type="text" name="n3" id="n33" placeholder="School Name" size="88" onFocus="show3()" onBlur="hide3()"
+style="height:35;background-color:transparent;border-color:black;font-weight:bold;font-size:17px " >
+</td>
+</tr>
+
+<tr>
+<td colspan="2" height="15">
+<font color="red" id="p31"><b>input only characters</b>  </font>
+<font color="red" id="p32"><b>field not be empty</b> </font>
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="text" name="n4" id="n44" placeholder="Class" size="41" onFocus="show4()" onBlur="hide4()"
+style="height:35;background-color:transparent;border-color:black;font-weight:bold;font-size:17px" >
+</td>
+
+<td>
+<input type="text" name="n5" id="n55" placeholder="Roll No." size="41" onFocus="show5()" onBlur="hide5()"
+style="height:35;background-color:transparent;border-color:black;font-weight:bold;font-size:17px " >
+</td>
+
+</tr>
+
+<tr>
+<td height="15">
+<font color="red" id="p41"><b>input valid entry</b> </font>
+<font color="red" id="p42"><b>field not be empty</b> </font>
+</td>
+
+<td height="15">
+<font color="red" id="p51"><b>input only digits</b></font>
+<font color="red" id="p52"><b>field not be empty</b> </font>
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
+
+<input type="text" name="n6" id="n66" placeholder="Date of Birth" size="88" onFocus="show6()" onBlur="hide6()"
+style="height:35;background-color:transparent;border-color:black;font-weight:bold;font-size:17px; " >
+
+</td>
+</tr>
+
+<tr>
+<td colspan="2" height="15">
+<font color="red" id="p61"><b>Enter valid date </b></font>
+<font color="red" id="p62"><b>field not be empty</b> </font>
+</td>
+</tr>
+
+<tr>
+
+<td colspan="2">
+<input type="text" name="n7" id="n77" placeholder="e-mail address" size="88" onFocus="show7()" onBlur="hide7()"
+style="height:35;background-color:transparent;border-color:black;font-weight:bold;font-size:17px; " >
+</td>
+
+</tr>
+
+<tr>
+<td colspan="2" height="15">
+<font color="red" id="p71"><b>Enter valid e-mail address</b></font>
+<font color="red" id="p72"><b>field not be empty</b> </font>
+</td>
+</tr>
+
+
+<tr>
+<td colspan="2" height="35" >
+
+<font id="f1" size="5" color="red"><b>Hint shows here</b></font>
+<font id="f2" size="5" color="darkred"><b>Enter your first name and middle name</b></font>
+<font id="f3" size="5" color="darkred"><b>Enter your last name</b></font>
+<font id="f4" size="5" color="darkred"><b>Enter your school name</b></font>
+<font id="f5" size="5" color="darkred"><b>Enter your class</b></font>
+<font id="f6" size="5" color="darkred"><b>Enter your class roll number</b></font>
+<font id="f7" size="5" color="darkred"><b>Enter your date of birth in format  <font color="black">DD/MM/YYYY</font></b></font>
+<font id="f8" size="5" color="darkred"><b>Enter your e-mail address</b></font>
+<font id="f9" size="5" color="darkred"><b>Enter your mobile no.</b></font>
+
+</td>
+</tr>
+
+
+<tr>
+<td colspan="2" height="15">
+</td>
+</tr>
+
+<tr>
+<td  align="right">
+<input type="reset" name="" onClick="hidebody()" Value="Reset All" 
+style="height:35;width:100%;background-color:green;border-color:green;color:white;font-size:25px;"> 
+</td>
+<td>
+<input type="button" name="" value="Start Examination" onClick="show()"
+style="height:35; width:100%; background-color:green; border-color:green;color:white;font-size:25px; ">
+</td>
+</tr>
+
+</table>
+</form>
+<br><br><br>
+</td></tr>
+</table>
+</body>
+</html>
