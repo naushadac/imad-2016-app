@@ -150,7 +150,6 @@ if(n77.length===0 )
  newwind.document.write("<br/>E-mail id:"+n77);
  */
  
- alert("hrllf");
  window.location="/ui/selectsubject1.html";
  
  }
