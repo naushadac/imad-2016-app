@@ -25,6 +25,14 @@ app.get('/ui/studsign.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'studsign.html'));
 });
 
+app.get('/ui/jsfile.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'jsfile.js'));
+});
+
+app.get('/ui/testpaper.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'testpaper.js'));
+});
+
 app.get('/ui/aptitude.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'aptitude.png'));
 });
