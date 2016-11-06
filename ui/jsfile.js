@@ -151,7 +151,7 @@ if(n77.length===0 )
  */
  
  alert("hrllf");
- window.location="/ui/selectsubject1.html";
+ window.location="/ui/madi.png";
  
  }
  
