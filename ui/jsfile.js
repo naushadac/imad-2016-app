@@ -55,31 +55,31 @@ var n55=document.getElementById('n55').value;
 var n66=document.getElementById('n66').value;
 var n77=document.getElementById('n77').value;
 
-if(n11.length==0 )
+if(n11.length===0 )
  {
  document.getElementById('p12').style.display='block';
  }
-if(n22.length==0 )
+if(n22.length===0 )
  {
  document.getElementById('p22').style.display='block';
  }
-if(n33.length==0 )
+if(n33.length===0 )
  {
  document.getElementById('p32').style.display='block';
  }
-if(n44.length==0 )
+if(n44.length===0 )
  {
  document.getElementById('p42').style.display='block';
  }
-if(n55.length==0 )
+if(n55.length===0 )
  {
  document.getElementById('p52').style.display='block';
  }
-if(n66.length==0 )
+if(n66.length===0 )
  {
  document.getElementById('p62').style.display='block';
  }
-if(n77.length==0 )
+if(n77.length===0 )
  {
  document.getElementById('p72').style.display='block';
  }
@@ -100,39 +100,39 @@ if(n77.length==0 )
  
  if(n11!=reg11 )
  {
-  if(n11.length!=0) 
+  if(n11.length!==0) 
    {
   document.getElementById('p11').style.display='block';
    }
  }
  
  
-  if(n22!=reg22 && n22.length!=0)
+  if(n22!=reg22 && n22.length!==0)
  {
   document.getElementById('p21').style.display='block';
  }
  
-  if(n33!=reg33 && n33.length!=0)
+  if(n33!=reg33 && n33.length!==0)
  {
   document.getElementById('p31').style.display='block';
  }
  
-  if(n44!=reg44 && n44.length!=0)
+  if(n44!=reg44 && n44.length!==0)
  {
   document.getElementById('p41').style.display='block';
  }
  
-  if(n55!=reg55 && n55.length!=0)
+  if(n55!=reg55 && n55.length!==0)
  {
   document.getElementById('p51').style.display='block';
  }
  
-  if(n66!=reg66 && n66.length!=0)
+  if(n66!=reg66 && n66.length!==0)
  {
   document.getElementById('p61').style.display='block';
  }
  
-  if(n77!=reg77 && n77.length!=0)
+  if(n77!=reg77 && n77.length!==0)
  {
   document.getElementById('p71').style.display='block';
  }
@@ -151,7 +151,7 @@ if(n77.length==0 )
  */
  
  
- window.location="selectsubject1.html";
+ window.location="/ui/selectsubject1.html";
  
  }
  
